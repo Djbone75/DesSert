@@ -56,7 +56,7 @@ function beginning() {
 function lanceDe() {
   number = Math.floor(Math.random() * 6) + 1;
 
-  if (number != 10) {
+  if (number != 1) {
     total += number;
     deRandom.setAttribute("src", "src/img/d_" + number + ".jpg");
     deRandomSmall = document.createElement("img");
