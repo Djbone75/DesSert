@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  background-image: linear-gradient(to right, #fef3c7, #fbbf24);
+}
+
+.player1 {
+  background: linear-gradient(to right, #ede9e6 50%, #fafaf9 50%, #fafaf9 100%);
+}
+.player2 {
+  background: linear-gradient(to right, #fafaf9 50%, #ede9e6 50%, #ede9e6 100%);
+}
